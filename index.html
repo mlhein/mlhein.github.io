@@ -8,32 +8,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello World!</title>
+    <title>Home</title>
 
 </head>
 
 <body>
-    <div id="mynav">
-    </div>
+    <nav class="navbar navbar-expand-lg shadow-lg sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">mlhein</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="post.html">Post</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <br><br>
     <div class="container d-flex h-100 p-3 mx-auto flex-column">
         <main role="main" class="inner cover ">
-            <h1 class="heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit
-                the text, and add your own fullscreen background photo to make it your own.</p>
+            <h1 class="heading">Hi, </h1>
+            <p class="lead">You discovered an empty space :)</p>
         </main>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"
         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script>
-        $(window).on("load", $.get('mynav.html', function (html) {
-            $("#mynav").append(html);
-        }));
-        // $.get('mynav.html', function (html) {
-        //     $("#mynav").append(html)
-        // });
-    </script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"
         type="text/javascript"></script>
@@ -43,8 +49,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
         type="text/javascript"></script>
-
-
 </body>
 
 </html>
